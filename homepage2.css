@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    transition: 200ms;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul, aside.dropdown-vertically ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover {
+    color: white;
+    background-color: rgb(0, 195, 255);
+}
+ul {
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(54, 141, 163);
+}
+ul ul li {
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(54, 141, 163);
+}
+ul ul ul{
+    position: relative;
+    bottom: 50px;
+    display: none;
+}
+ul li:hover ul li {
+    position: relative;
+    display: block;
+}
+ul ul li:hover ul {
+    display: block;
+    bottom: 0px;
+}
+
